@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CharityHub</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About App</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="search_bar_string">Enter Organisation name or place....</string>
+    <string name="test_string">Lorem ipsem dolor sit amet</string>
+    <string name="calenderButton">Pick A Date!</string>
+    <string name="title_activity_date_pick">DatePick</string>
+    <string name="checkDateButton">check for this date!</string>
+    <string name="dateCheckUrl">http://honey-pc:8080/CharityHub/book</string>
+    <string name="home_image">Home Image</string>
+    <string name="internet_not_connected">Net Not Connected....</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="exit">exit</string>
+    <string name="mayank_name">\nMayank Baiswar</string>
+    <string name="mayank_data">mayank.12cs050@abes.ac.in\n9560979465\n</string>
+    <string name="prakhar_name">Prakhar Kr. Tiwari</string>
+    <string name="prakhar_data">prakhar12cs054@abes.ac.in\n8285806317\n</string>
+    <string name="harry_name">Jitendra Lakhmani</string>
+    <string name="harry_data">jitendra.12cs149@abes.ac.in\n9654018026\n</string>
+    <string name="mudit_name">Mudit Gupta</string>
+    <string name="mudit_data">mudit.12cs113@abes.ac.in\n9899872559\n</string>
+    <string name="about_app">This app is made for INTER-COLLEGE COMPETITION ON \n OUR SMART GHAZIABAD.\nUnder Ghaziabad Development Authority
+        \n\nThe app is made by-</string>
+    <string name="type_here">Type Here To Send Message</string>
+    <string name="send_mail">Send mail</string>
+    <string name="title_activity_date_book">DateBook</string>
+    <string name="currentIp">currentIp</string>
+    <string name="search_via_address">search via address</string>
+    <string name="search_by_no_of_people">search by no. of people</string>
+    <string name="title_activity_org_info">OrgInfo</string>
+    <string name="action_hide">Hide Panel</string>
+    <string name="action_show">Show Panel</string>
+    <string name="action_anchor_enable">Enable Anchor Point</string>
+    <string name="action_anchor_disable">Disable Anchor Point</string>
+    <string name="NAME">Name of Organisation:</string>
+    <string name="CITY">Address:</string>
+    <string name="CONTACT_PERSON">Contact Person:</string>
+    <string name="CONTACT_PERSON_PHONE">Contact Person Phone</string>
+    <string name="PEOPLE_ESTIMATION">Estimated People</string>
+    <string name="title_activity_complete__info">Complete Info</string>
+    <string name="title_activity_needs_list">NeedsList</string>
+    <string name="title_activity_latest_needs">LatestNeeds</string>
+    <string name="title_activity_search_near_org">SearchNearOrg</string>
+    <string name="_settings">Settings</string>
+    <string name="GPSAlertDialogTitle">GPS Settings</string>
+    <string name="GPSAlertDialogMessage">GPS is not enabled.Would you like to turn it on?</string>
+    <string name="gcm_defaultSenderId">410064146807</string>
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again</string>
+
+</resources>

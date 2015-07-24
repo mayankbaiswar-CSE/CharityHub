@@ -1,0 +1,103 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash_bkg"
+        android:alpha="0.4" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_about_icon"
+                android:layout_gravity="center" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="@string/about_app"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mayank_name"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mayank_data"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prakhar_name"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prakhar_data"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/harry_name"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/harry_data"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mudit_name"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#1e8bc3" />
+
+            <com.example.mayank.charityhub.font.FontelloTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mudit_data"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#1e8bc3" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

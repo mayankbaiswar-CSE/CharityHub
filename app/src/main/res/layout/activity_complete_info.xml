@@ -1,0 +1,276 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dexterous.charityhub.CompleteInfo">
+
+    <com.nirhart.parallaxscroll.views.ParallaxScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/splash_bkg" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingEnd="@dimen/padding"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="@dimen/padding"
+                        android:paddingStart="@dimen/padding"
+                        android:paddingTop="@dimen/padding">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/padding"
+                            android:paddingRight="5dp"
+                            android:src="@mipmap/ic_account_balance_white"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="25sp"
+                            app:typeface="Fontello" />
+
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="5dp"
+                        android:paddingTop="@dimen/padding">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="@dimen/padding"
+                            android:src="@mipmap/ic_room_white"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="20sp"
+                            app:typeface="Fontello" />
+
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="5dp"
+                            android:src="@mipmap/ic_perm_phone_msg_white"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_phone_org"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="20sp"
+                            app:typeface="Fontello" />
+
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="5dp"
+                            android:src="@mipmap/ic_perm_contact_cal_white"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_contact_person_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="20sp"
+                            app:typeface="Fontello" />
+
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="5dp"
+                            android:src="@mipmap/ic_perm_phone_msg_white"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_contact_person_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="20sp"
+                            app:typeface="Fontello" />
+
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="5dp"
+                            android:src="@mipmap/ic_email"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_contact_person_mail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="4dp"
+                            android:textSize="20sp"
+                            app:typeface="Fontello" />
+
+                    </LinearLayout>
+
+                    <LinearLayout xmlns:app="http://schemas.android.com/apk/res/com.dexterous.charityhub"
+                        android:id="@+id/upper6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="@dimen/padding"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp">
+
+                        <com.github.clans.fab.FloatingActionButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="5dp"
+                            android:src="@mipmap/ic_perm_identity_white"
+                            fab:fab_colorNormal="@color/colorPrimaryDark"
+                            fab:fab_colorPressed="@color/colorPrimary"
+                            fab:fab_colorRipple="@color/colorPrimary" />
+
+                        <com.dexterous.charityhub.font.FontelloTextView
+                            android:id="@+id/complete_estimate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="20sp"
+                            app:typeface="Fontello" />
+
+                        <!--<com.github.clans.fab.FloatingActionButton-->
+                        <!--android:id="@+id/needs_button"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="bottom|right"-->
+                        <!--android:layout_marginBottom="8dp"-->
+                        <!--android:layout_marginRight="8dp"-->
+                        <!--android:src="@mipmap/ic_donation"-->
+                        <!--fab:fab_colorNormal="#ff6666"-->
+                        <!--fab:fab_colorPressed="#cc5252"-->
+                        <!--fab:fab_colorRipple="@color/colorPrimary" />-->
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.nirhart.parallaxscroll.views.ParallaxScrollView>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/needs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_donation"
+        fab:fab_colorNormal="#ff6666"
+        fab:fab_colorPressed="#cc5252"
+        fab:fab_colorRipple="@color/colorPrimary" />
+
+    <ProgressBar
+        android:id="@+id/complete_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

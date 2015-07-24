@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/type_here"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="5dp"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#1E8BC6" />
+
+
+    <TextView
+        android:id="@+id/et_recipient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="recipient"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="5dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#1E8BC6" />
+    <TextView
+        android:id="@+id/et_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="subject"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="5dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#1E8BC6" />
+    <TextView
+        android:id="@+id/et_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="message"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="5dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#1E8BC6" />
+
+    <EditText
+        android:id="@+id/et_add_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="add more details"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="5dp"
+        android:background="@android:color/transparent"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#1E8BC6" />
+
+    <Button
+        android:id="@+id/btn_sendmail"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/send_mail"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
