@@ -9,3 +9,4 @@ While this mobile app can be used by anyone, to donate or just to enquire the ne
 * you can donate whatever you like.
 * you can search the organisations by location or by number of beneficiaries.
 * you can search organisations near you.
+* you can know the updates of organisations.
